@@ -70,7 +70,7 @@ Spotify-Clone-App
 Clone the repository:
 
 ```bash
-https://github.com/aksmisr/Spotify-Clone-App.git
+git clone https://github.com/aksmisr/Spotify-Clone-App.git
 ```
 
 Navigate into the project folder:
