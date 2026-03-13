@@ -76,7 +76,7 @@ https://github.com/aksmisr/Spotify-Clone-App.git
 Navigate into the project folder:
 
 ```bash
-cd spotify-clone
+cd Spotify-Clone-App
 ```
 
 Install dependencies:
