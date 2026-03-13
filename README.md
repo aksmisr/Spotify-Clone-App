@@ -89,4 +89,72 @@ http://localhost:5173
 
 ---
 
+## 🎮 How It Works
 
+The application simulates music playback using a **timer-based progress system**.
+
+Key logic:
+
+* `setInterval()` updates song progress
+* `useRef` stores interval references
+* `useCallback` optimizes track switching
+* `useState` manages:
+
+  * current track
+  * playing state
+  * volume
+  * liked songs
+  * playlists
+  * queue
+
+---
+
+## 📸 Preview
+
+Features included in the interface:
+
+* Sidebar navigation
+* Playlist cards
+* Track list with hover play button
+* Bottom music player
+* Volume slider
+* Like button
+* Shuffle & repeat controls
+
+---
+
+## 📌 Future Improvements
+
+Possible enhancements:
+
+* 🎵 Real audio playback using `<audio>`
+* 🔍 Search functionality
+* 👤 User authentication
+* ☁️ Backend with playlists storage
+* 📱 Fully responsive mobile design
+* 🎧 Queue management
+* 🎼 Dynamic music API integration
+
+---
+
+## 🎓 Learning Purpose
+
+This project helps practice:
+
+* React UI architecture
+* State management
+* Interactive UI design
+* Music player logic
+* Modern JavaScript patterns
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+If you like this project, please **star the repository** on GitHub ⭐
