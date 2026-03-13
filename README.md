@@ -155,6 +155,13 @@ This project is licensed under the **MIT License**.
 
 ---
 
+## Author
+
+**Aakash Mishra**
+
+
 ## ⭐ Support
 
 If you like this project, please **star the repository** on GitHub ⭐
+
+
