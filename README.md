@@ -37,30 +37,40 @@ It is a **frontend-only application** designed to practice **React state managem
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
+```bash
+Spotify-Clone-App
+│
+├── node_modules/          # Installed project dependencies
+│
+├── public/
+│   └── vite.svg           # Default Vite asset
+│
+├── screenshots/           # Project screenshots for README preview
+│
+├── src/
+│   ├── assets/            # Static assets (images, icons, etc.)
+│   ├── App.css            # Main component styles
+│   ├── App.jsx            # Main Spotify clone component
+│   ├── index.css          # Global styles
+│   └── main.jsx           # React application entry point
+│
+├── .gitignore             # Files ignored by Git
+├── eslint.config.js       # ESLint configuration
+├── index.html             # Root HTML template
+├── package.json           # Project dependencies & scripts
+├── package-lock.json      # Dependency lock file
+├── vite.config.js         # Vite build configuration
+└── README.md              # Project documentation
 ```
-spotify-clone
-│
-├── src
-│   ├── SpotifyClone.jsx
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── public
-│
-├── package.json
-└── README.md
-```
-
----
 
 ## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/spotify-clone.git
+https://github.com/aksmisr/Spotify-Clone-App.git
 ```
 
 Navigate into the project folder:
@@ -111,17 +121,28 @@ Key logic:
 
 ## 📸 Preview
 
-Features included in the interface:
+### 🏠 Home Page
+<img src="./screenshots/home.png" width="900">
 
-* Sidebar navigation
-* Playlist cards
-* Track list with hover play button
-* Bottom music player
-* Volume slider
-* Like button
-* Shuffle & repeat controls
+### 🔎 Search Page
+<img src="./screenshots/search.png" width="900">
+
+### ❤️ Liked Songs
+<img src="./screenshots/liked.png" width="900">
 
 ---
+
+## ✨ Interface Features
+
+The UI includes the following components:
+
+- Sidebar navigation
+- Playlist cards
+- Track list with hover play button
+- Bottom music player
+- Volume slider
+- Like button
+- Shuffle & repeat controls
 
 ## 📌 Future Improvements
 
